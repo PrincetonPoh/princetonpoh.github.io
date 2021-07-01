@@ -1,6 +1,8 @@
 title: Ben Balter
 description: Attorney, open source developer, product manager
 
+remote_theme: benbalter/retlab
+
 lang: en-US
 
 # Pages to include in header navigation
