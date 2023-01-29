@@ -8,7 +8,7 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I have keen interests in startups and technology. My greatest professional achievement thus far is being an ex-cofounder @ Scratchbac Pte Ltd where we raised 500k worth of seed funding building a community app. From being the first developer to having a team of 12 amazing people. I am sure the lessons learnt will stay with me as I embark on my next endeavors.
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
@@ -18,3 +18,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <div class="row">
 {% include about/timeline.html %}
 </div>
+
+
+
+
+I blog at The Pug Automatic and work at Auctionet.
+
+Contact me at @henrik or henrik@nyh.se.
+
+Uses Projects
+GitHub Mastodon Instagram Pinboard
