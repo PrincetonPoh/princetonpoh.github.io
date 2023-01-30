@@ -15,13 +15,15 @@ I have keen interests in startups and technology. My greatest professional achie
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 </div> -->
 
+<!-- Work Experience -->
 <br>
-<h1>Education</h1>
-
+<h1>Key Experiences</h1>
 <div class="row">
 {% include about/timeline.html %}
 </div>
 
 <br>
-<h1>Contact me</h1>
-hp: +65 90181531
+<h1>Let's connect!</h1>
+My preferred platform is telegram <a href="https://t.me/pprinceton" target="_blank" rel="noopener noreferrer">@Pprinceton</a>
+
+Alternative HP: +65 90181531
