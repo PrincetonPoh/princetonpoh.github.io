@@ -25,6 +25,3 @@ I have keen interests in startups and technology. My greatest professional achie
 <br>
 <h1>Contact me</h1>
 hp: +65 90181531
-
-telegram handle: @pprinceton
-
