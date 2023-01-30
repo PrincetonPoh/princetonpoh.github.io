@@ -1,0 +1,31 @@
+.routing-button-column {
+    display: grid;
+    text-align:center;
+}
+
+// .routing-button {
+//     background:#007bff; 
+//     color:white;
+//     padding: 12px;
+//     border-radius: 16px;
+//     margin: 12px;
+// }
+
+
+.routing-button {
+    background:#007bff; 
+    color:white;
+    padding: 12px;
+    border-radius: 16px;
+    margin: 12px;
+    text-transform: uppercase;
+}
+
+.routing-button:hover {
+    background-color: whitesmoke;
+    text-decoration: none;
+}
+
+.routing-button:active {
+    background-color: #007bff;
+}

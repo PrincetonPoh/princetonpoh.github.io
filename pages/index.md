@@ -5,9 +5,4 @@ permalink: /
 
 {% include landing.html %}
 
-<!-- 
-[About me](/about){: .center}
-
-[Projects](/projects)
-
-[Experience](/) -->
+{% include button.html url="http://www.google.com" %}
