@@ -1,6 +1,6 @@
-.routing-button-column { display: grid; text-align: center; }
+.routing-button-grid { display: grid; text-align: center; justify-items: center; }
 
-.routing-button { background: #007bff; color: white; padding: 12px; border-radius: 16px; margin: 12px; text-transform: uppercase; }
+.routing-button { background: #007bff; color: white; padding: 12px; border-radius: 16px; margin: 12px; text-transform: uppercase; width: 100%; max-width: 500px; }
 
 .routing-button:hover { background-color: whitesmoke; text-decoration: none; }
 
