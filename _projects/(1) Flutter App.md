@@ -3,7 +3,7 @@ name: >
     Hyperlocal App! :phone:
 tools: [mobile dev, frontend, flutter]
 image: ../assets/projects/flutter_app/1.gif
-description: Built the whole app for my startup Scratchbac using Flutter
+description: Built the full fledged app for my startup, Scratchbac.
 # external_url: https://www.google.com
 ---
 
@@ -11,11 +11,23 @@ description: Built the whole app for my startup Scratchbac using Flutter
 
 # Work done
 
-The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
+Early days (capstone team)
+Solo developer
+Remote hiring
+New intern team
+
+<!-- ![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg) -->
+
+{% include elements/figure.html image="../assets/projects/flutter_app/1.jpeg" caption="" %}
+{% include elements/figure.html image="../assets/projects/flutter_app/2.jpeg" caption="" %}
+{% include elements/figure.html image="../assets/projects/flutter_app/3.jpeg" caption="" %}
+{% include elements/figure.html image="../assets/projects/flutter_app/4.jpeg" caption="" %}
+{% include elements/figure.html image="../assets/projects/flutter_app/5.jpeg" caption="" %}
+{% include elements/figure.html image="../assets/projects/flutter_app/6.jpeg" caption="" %}
+{% include elements/figure.html image="../assets/projects/flutter_app/7.jpeg" caption="" %}
 
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/YoussefRaafatNasry/portfolYOU" text="Learn More" %}
+{% include elements/button.html link="https://www.scratchbac.com/post/scratchbac-is-on-%E6%97%A9%E6%8A%A5-zaobao" text="Early Days" %}
 </p>

@@ -12,5 +12,5 @@ description: Built a simple rogue-like game for one of my CS modules
 </p>
 
 <p class="text-center">
-{% include elements/button.html link="https://www.youtube.com/watch?v=0GARwZRMLmI" text="Youtube" %}
+    {% include elements/button.html link="https://www.youtube.com/watch?v=0GARwZRMLmI" text="Youtube" %}
 </p>
