@@ -5,3 +5,5 @@
 .routing-button:hover { background-color: whitesmoke; text-decoration: none; }
 
 .routing-button:active { background-color: #007bff; }
+
+.responsive-images { width: 50%; height: 50%; }

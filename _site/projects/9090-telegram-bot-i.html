@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Telegram Bot (I)">
+  <meta property="og:description" content="My first real software project">
+  <meta property="og:image" content="../assets/projects/telegram_bot/4.jpeg">
+
+  <title>Telegram Bot (I)</title>
+  <meta name="description" content="My first real software project">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Princeton Poh</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1 id="preface">Preface</h1>
+<p>I believe I create one of the most sophisticated and most used telegram bot in Singapore when I released it. Here’s somme history of how it started.</p>
+
+<h1 id="idea-inception">Idea Inception</h1>
+
+<p>During the start of the pandemic in 2019, I just finished my year 1 of college and was sitting at home all day. With all that time, I was bored. I do believe that boredom breeds creativity. I had been playing with this idea of a sharing community for the longest period of time. In Singapore, we live so physically close to each other, but we are so socially separated.</p>
+
+<p>Because we were stuck at home from the pandemic, the problems which that idea of mine was trying to solve became every more prominent. People were unable to have access to regular resources easily. What if we could share the resources we have at home? There came a point where I realized that instead of just fantasizing about that idea, I could put what I’ve learnt in school thus far to build it out. I decided that it was a worthy project for me to pursue regardless of whether it turns out well or not. There, neighbourly was born.</p>
+
+<figure class="figure w-100">
+  <img src="/assets/projects/telegram_bot/4.jpeg" class="figure-img img-fluid rounded" alt="First logo" /><figcaption class="figure-caption text-center">First logo</figcaption></figure>
+
+<h1 id="execution">Execution</h1>
+
+<p>My plan was to build a telegram bot that will collate requests and pump it to a telegram channel. I got my sister to do a simple logo and poster so that I can put it in the lifts of the HDBs around me. It took me about a month to build the bot in python, connect it to firebase realtime-database and host it on heroku. Once the bot was built, it was time to test it out! This was what it looked like:</p>
+
+<figure class="figure w-100">
+  <img src="/assets/projects/telegram_bot/2.jpeg" class="figure-img img-fluid rounded" alt="First posts on the platform" /><figcaption class="figure-caption text-center">First posts on the platform</figcaption></figure>
+
+<figure class="figure w-100">
+  <img src="/assets/projects/telegram_bot/3.jpeg" class="figure-img img-fluid rounded" alt="How to input requests" /><figcaption class="figure-caption text-center">How to input requests</figcaption></figure>
+
+<p>I remember the first time my sister and I received one of our first orders. It was someone wanting to order <a href="https://t.me/neighbourlySGpendingRd/31">bubble tea</a> together. We decided to do so and went down to the person’s house to collect. It was exhilarating. What was interesting was that the person turns out to be the sister of a friend of my own sister. She never knew that they stayed so close together. This gave me a glimpse at what this platform could potentially become. I started about thinking where else will we be able to use such a telegram bot.</p>
+
+<h1 id="mini-expansion">Mini expansion</h1>
+
+<p>The next logical place where I feel this bot will be useful would be my school. Before I could blast a message out to the people in my school, I knew I had to make the bot more scalable. It currently has just 1 bot and just 1 channel. This is essentially 1 write and 1 read channels. This doesn’t scale well because if I have n location, I’ll need to have 2n read and write channels. To solve this, I had to make a 1 channel system that works for n number of locations. To achieve that, I need to allow everyone to post and receive posts from a single telegram bot. I essentially published the post of a user to everyone 1km around them. Once I was able to achieve that, I sent that out to my school (SUTD)’s messaging channels.</p>
+
+<p>From there, one of my seniors reached out to me to say that they are working on a similar idea and convinced me to join them. Their group is called Scratchbac. This marks the start of part 2 of my journey of building this telegram bot.</p>
+
+</div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Princeton Poh</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="https://t.me/pprinceton"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-telegram fa-1x"></i>
+    </a><a class="social mx-1"  href="mailto:niceprinceton@gmail.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/PrincetonPoh"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#ffffff'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.instagram.com/loloprincey"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#405de6'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-instagram fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/princeton-poh"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+
+</footer>
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+</html>
