@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="project-page">
+  <header class="project-header">
+    <a href="{{ '/blog/' | relative_url }}" class="back-link">← Blog</a>
+    <h1>{{ page.name }}</h1>
+    {% if page.description %}
+    <p class="project-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <div class="project-content">
+    {{ content }}
+  </div>
+</article>

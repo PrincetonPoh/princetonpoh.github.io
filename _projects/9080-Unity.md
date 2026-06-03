@@ -1,9 +1,8 @@
 ---
 name: Rogue-like game
-tools: [C#, pain]
-image: ../assets/projects/game_dev/1.jpeg
+image: /assets/projects/game_dev/1.jpeg
 description: Built a simple rogue-like game for one of my CS modules
-# external_url: https://github.com/YoussefRaafatNasry
+published: false
 ---
 
 

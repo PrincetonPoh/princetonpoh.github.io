@@ -1,0 +1,7 @@
+{% assign img_src = include.image %}
+<figure {% if include.size %}class="figure-{{ include.size }}"{% endif %}>
+  <img src="{{ img_src | relative_url }}" alt="{{ include.caption }}">
+  {% if include.caption and include.caption != "" %}
+  <figcaption>{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>
