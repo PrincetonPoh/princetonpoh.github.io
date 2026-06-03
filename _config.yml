@@ -1,111 +1,37 @@
-### Site Settings ###
-title               : Princeton Poh
-description         : >-
-                      I'm Princeton Poh, a budding entrepreneur. :penguin:
-                      I am studying my masters in Berkeley. 
-                      I'm interested in sports :basketball:, technology :computer: and business :dollar:.
-baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-# repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : YoussefRaafatNasry/portfolYOU
-open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
-livereload          : true
+title: Princeton Poh
+description: "Entrepreneur, builder, and engineer based in Singapore."
+baseurl: ""
+url: "https://princetonpoh.github.io"
 
-### Plugins ###
-plugins:
-  - jemoji
-
-
-### Navbar Settings ###
-nav_exclude:                                            # The following paths are excluded from navbar
-  - pages/tags.html
-  - pages/404.html
-  - pages/index.md
-  - documentation/partials/**                           # For Documentation Only
-
-
-### Author Info ###
 author:
-  name              : Princeton Poh
-  image             : ../assets/dp.jpeg
-  telegram          : pprinceton
-  # behance           : your_username
-  # dribbble          : your_username
-  email             : niceprinceton@gmail.com
-  # facebook          : princey.lolo
-  github            : PrincetonPoh
-  # gitlab            : your_username
-  instagram         : loloprincey
-  # kaggle            : your_username
-  linkedin          : princeton-poh
-  # medium            : your_username
-  # soundcloud        : your_username
-  # spotify           : your_username
-  # stackoverflow     : your_user_id
-  # tumblr            : your_username.tumblr.com
-  # twitch            : your_username
-  # twitter           : your_username
-  # vimeo             : your_username
-  # youtube           : your_channel_name
-  # keybase           : your_username
+  name: Princeton Poh
+  email: niceprinceton@gmail.com
+  github: PrincetonPoh
+  linkedin: princeton-poh
 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-### Posts ###
-permalink: /blog/:title
-
-
-### Collections ###
 collections:
   projects:
     output: true
-    permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
+    permalink: /blog/:name/
 
-
-### Disqus ###
-disqus:
-  shortname: your-short-name-disqus                     # Your website Shortname on disqus
-
-
-### Analytics ###
-analytics:
-  enabled: false                                        # Set true to enable analytics
-  google:
-    tracking_id: your-google-tracking-id
-
-
-### Buy me a coffee ###
-# See https://www.buymeacoffee.com/
-buymeacoffee:
-  enabled: false
-  username: your_username
-  color: "#007bff"
-  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
-  description: "Support me on Buy me a coffee!"
-
-
-### Defaults for collections ###
 defaults:
   - scope:
       path: ""
       type: "projects"
     values:
-      layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: false                                   # Set to true to enable disqus comments
+      layout: "project"
 
+kramdown:
+  hard_wrap: true
 
-### Exclude from processing ###
 exclude:
+  - Gemfile
+  - Gemfile.lock
   - README.md
-  - CONTRIBUTING.md
-  - LICENSE
+  - .DS_Store
   - "*.log"

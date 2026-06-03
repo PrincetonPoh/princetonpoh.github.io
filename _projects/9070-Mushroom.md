@@ -1,19 +1,15 @@
 ---
-name: >
-    Hericium erinaceus :mushroom:
-tools: [school, biology, mechanical engineering]
-image: ../assets/projects/mushroom/1.jpeg
-description: I cloned mushrooms in SUTD with my friends!
+name: "Hericium erinaceus"
+image: /assets/projects/mushroom/1.jpeg
+description: cloned some mushrooms with friends in SUTD!
 ---
 
-# Project Context
-
-# Work done
+# Reflections still in progress...
 
 
-{% include elements/figure.html image="../assets/projects/mushroom/2.jpeg" caption="" %}
-{% include elements/figure.html image="../assets/projects/mushroom/3.jpeg" caption="" %}
-{% include elements/figure.html image="../assets/projects/mushroom/4.jpeg" caption="" %}
-{% include elements/figure.html image="../assets/projects/mushroom/5.jpeg" caption="" %}
-{% include elements/figure.html image="../assets/projects/mushroom/6.jpeg" caption="" %}
-{% include elements/figure.html image="../assets/projects/mushroom/maggots.gif" caption="" %}
+{% include elements/figure.html image="/assets/projects/mushroom/2.jpeg" caption="" %}
+{% include elements/figure.html image="/assets/projects/mushroom/3.jpeg" caption="" %}
+{% include elements/figure.html image="/assets/projects/mushroom/4.jpeg" caption="" %}
+{% include elements/figure.html image="/assets/projects/mushroom/5.jpeg" caption="" %}
+{% include elements/figure.html image="/assets/projects/mushroom/6.jpeg" caption="" %}
+{% include elements/figure.html image="/assets/projects/mushroom/maggots.gif" caption="" %}

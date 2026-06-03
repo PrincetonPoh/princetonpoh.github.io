@@ -1,9 +1,33 @@
 ---
 layout: default
 title: Blog
-weight: 2
 permalink: /blog/
 ---
 
-{% include blog/search.html %}
-{% include blog/index.html %}
+<h1>Blog</h1>
+
+<ul class="projects-list">
+  {% assign sorted_projects = site.projects | sort: 'name' | reverse %}
+  {% for project in site.projects %}
+  {% unless project.draft %}
+  <li>
+    <a href="{{ project.url | relative_url }}" class="project-entry">
+      {% if project.image %}
+      <img
+        class="project-thumb"
+        src="{{ project.image | relative_url }}"
+        alt="{{ project.name }}"
+        onerror="this.style.display='none'"
+      >
+      {% endif %}
+      <div class="project-entry-info">
+        <div class="project-entry-title">{{ project.name }}</div>
+        {% if project.description %}
+        <p class="project-entry-desc">{{ project.description }}</p>
+        {% endif %}
+      </div>
+    </a>
+  </li>
+  {% endunless %}
+  {% endfor %}
+</ul>
